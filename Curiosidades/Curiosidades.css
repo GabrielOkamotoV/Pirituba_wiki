@@ -1,0 +1,36 @@
+#video-bairro{
+    margin-top: 90px;
+    text-align: center;
+}
+#video-bairro h2, #maps h2, #curiosidades h2{
+    text-align: center;
+    margin-top:150px ;
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+#video-bairro iframe{
+    border: solid 4px black;
+}
+#maps{
+    text-align: center;
+}
+#curiosidades{
+    margin-bottom: 100px;
+}
+#curiosidades article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 80px;
+}
+#curiosidades article div h3{
+    margin: 0px;
+}
+#curiosidades article div iframe{
+    border: solid 4px black;
+}
+#curiosidades article p{
+    display: inline-block;
+    width: 45%;
+    text-align: justify;
+}

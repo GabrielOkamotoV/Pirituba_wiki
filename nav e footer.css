@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Roboto_Condensed;
+    src: url(Fontes/Roboto/RobotoCondensed-Regular.ttf)
+}
+@font-face {
+    font-family: Inter;
+    src: url(Fontes/Inter/Inter-Regular.ttf);
+}
+body{
+    font-family: Inter;
+    margin:0px;
+}
+p{
+    font-size: 18px;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: #E57819;
+    position: fixed;
+    z-index: 1000;
+    margin: 0px;
+    top: 0px;
+}
+#title-logo{
+    display: inline-block;
+    width: 25%;
+    height:90px;
+}
+#logo{
+    height: 90px;
+}
+nav h2{
+    font-family: 'Roboto_Condensed';
+    font-size: 55px;
+    color: white;
+    display: inline-block;
+    margin:0px;
+    margin-left: 10px;
+    position: relative;
+    bottom:25px;
+}
+nav ul{
+    height: 90px;
+    width:70%;
+    display: inline-block;
+    position: absolute;
+    top:0px;
+    margin: 0px;
+
+}
+nav li{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 210px;
+}
+li:hover{
+    background-color: #a35613;
+    transition: 0.7s;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    margin-top: 166px;
+    background-color: rgba(0, 26, 63, 1);
+}
+footer section{
+    margin-left:100px;
+    color: white;
+}
+footer #contato h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+footer #contato p{
+    margin: 0px 0px 4px 10px;
+}
+footer hr{
+    width: 95%;
+    background-color: white;
+    height: 2px;
+    opacity: 0.6;
+    border: transparent;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer #resumo{
+    margin: 0px 80px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+footer #resumo h3{
+    font-size: 24px;
+}
+footer #referencias{
+    width:80%;
+}
+footer #referencias p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+footer #referencias p a{
+    text-decoration: none;
+    color: white;
+}

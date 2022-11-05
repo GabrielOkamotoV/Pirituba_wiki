@@ -1,0 +1,26 @@
+main h2{
+    display: flex;
+    margin: auto;
+    margin-top: 110px;
+    font-size: 36px;
+    width: fit-content;
+    padding: 10px 30px;
+    background-color:rgba(238, 238, 238, 1);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    margin-bottom: 100px;
+}
+#hospitais article{
+    text-align: center;
+}
+#hospitais article hr{
+    height: 4px;
+    width: 90%;
+    border: transparent;
+    background-color: #E57819;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#hospitais article h3{
+    margin-top: 5px;
+}

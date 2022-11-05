@@ -1,0 +1,46 @@
+#terminal{
+    margin-top:90px;
+    text-align: center;
+    padding: 70px 50px 70px 50px;
+}
+#terminal article{
+    display: flex;
+    justify-content: space-around;
+}
+#terminal h2{
+    font-size: 38px;
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+#terminal #linhas-atendidas{
+    width: 95%;
+}
+#estação{
+    text-align: center;
+    margin-bottom: 150px;
+}
+#estação article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 70px;
+}
+#estação > img{
+    margin: 70px 0px;
+    width: 90%;
+}
+#estação article div h2{
+    font-size: 38px;
+    margin-bottom: 70px;
+}
+#estação #pirituba div{
+    width: 50%;
+    margin-right: 70px;
+    text-align: justify;
+}
+#estação #vila-clarice div{
+    width: 50%;
+    margin-left: 70px;
+    text-align: justify;
+}

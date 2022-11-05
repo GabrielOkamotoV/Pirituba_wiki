@@ -1,0 +1,66 @@
+#educação{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px;
+}
+#educação div{
+    width: 50%;
+    text-align: justify;
+}
+#educação div h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+#indice{
+    margin: 100px 0px;
+    display: flex;
+    font-size: 28px;
+    justify-content: space-around;
+}
+#indice ol li a{
+    text-decoration: none;
+    line-height: 200%;
+    color: black;
+    text-decoration: underline;
+}
+#escolas-publicas article{
+    text-align: center;
+}
+#escolas-publicas article hr{
+    height: 4px;
+    width: 90%;
+    border: transparent;
+    background-color: #E57819;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#escolas-publicas article h3{
+    margin-top: 5px;
+}
+#escolas-particulares article{
+    text-align: center;
+}
+#escolas-particulares article hr{
+    height: 4px;
+    width: 90%;
+    border: transparent;
+    background-color: #E57819;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#escolas-particulares article h3{
+    margin-top: 5px;
+}
+#escolas-particulares h2, #escolas-publicas h2{
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 48px;
+    width: fit-content;
+    padding: 10px 400px;
+    color: white;
+    background-color: rgba(0, 26, 63, 1);
+} 

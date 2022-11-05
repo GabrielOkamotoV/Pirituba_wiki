@@ -1,0 +1,162 @@
+#indice{
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+#indice h2{
+    padding: 50px 0px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+#indice div{
+    width: 80%;
+    margin: auto;
+    background-color: #001A3F;
+    height:300px;
+    color: white;
+}
+#indice div ul li{
+    display: inline-block;
+    width: 210px;
+    margin:50px;
+}
+#indice div ul li:nth-last-child(even){
+    margin-right: 350px;
+}
+#indice div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    text-decoration: underline;
+}
+#supermercados article > div{
+    width: 360px;
+    text-align: center;
+    border: solid 4px black;
+    height:440px;
+    position: relative;
+    padding-top:30px;
+}
+#supermercados article p{
+    text-align: justify;
+    margin: 0px 15px;
+}
+#supermercados article p:nth-last-child(1){
+    position:absolute;
+    bottom:20px
+}
+#supermercados article div #img h3{
+    font-weight: bold;
+    color:#E57819;
+    text-align: left;
+    margin-left:36px;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+#supermercados article{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 60px;
+}
+#restaurantes article > div{
+    width: 360px;
+    text-align: center;
+    border: solid 4px black;
+    height:440px;
+    position: relative;
+    padding-top:30px;
+}
+#restaurantes article p{
+    text-align: justify;
+    margin: 0px 15px;
+}
+#restaurantes article p:nth-last-child(1){
+    position:absolute;
+    bottom:20px
+}
+#restaurantes article div #img h3{
+    font-weight: bold;
+    color:#E57819;
+    text-align: left;
+    margin-left:36px;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+#restaurantes article{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 60px;
+}
+#utilidades article > div{
+    width: 360px;
+    text-align: center;
+    border: solid 4px black;
+    height:440px;
+    position: relative;
+    padding-top:30px;
+}
+#utilidades article p{
+    text-align: justify;
+    margin: 0px 15px;
+}
+#utilidades article p:nth-last-child(1){
+    position:absolute;
+    bottom:20px
+}
+#utilidades article div #img h3{
+    font-weight: bold;
+    color:#E57819;
+    text-align: left;
+    margin-left:36px;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+#utilidades article{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 60px;
+}
+#outros article > div{
+    width: 360px;
+    text-align: center;
+    border: solid 4px black;
+    height:440px;
+    position: relative;
+    padding-top:30px;
+}
+#outros article p{
+    text-align: justify;
+    margin: 0px 15px;
+}
+#outros article p:nth-last-child(1){
+    position:absolute;
+    bottom:20px
+}
+#outros article div #img h3{
+    font-weight: bold;
+    color:#E57819;
+    text-align: left;
+    margin-left:36px;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+#outros article{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 60px;
+}
+#supermercados h2, #restaurantes h2, #utilidades h2, #outros h2{
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 48px;
+    width: fit-content;
+    padding: 10px 400px;
+    color: white;
+    background-color: rgba(0, 26, 63, 1);
+}
